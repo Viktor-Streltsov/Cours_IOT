@@ -8,6 +8,8 @@ import platform
 import time
 from math import sqrt as s
 
+import cowsay as c
+
 import my_module as my
 from my_module import add_three_numbers as add
 
@@ -23,3 +25,5 @@ print(s(25))
 print(my.name)
 
 print(add(3, 5, 8))
+
+c.cow('Hello World!')
