@@ -22,6 +22,7 @@ if battery_level < 20:
     print("Слишком низкий заряд батареи!")
     print("Полет отменен.")
 else:
+    
     # Взлет
     print("Взлет...")
     tello.takeoff()

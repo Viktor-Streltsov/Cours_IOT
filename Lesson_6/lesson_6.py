@@ -18,13 +18,21 @@ if battery_level >= 20:
     print("Take off")
     tello.takeoff()
 
+    # Полет вперед на 140см
+    print("Move Forward")
+    tello.move_forward(140)
+
     # Поворот на 90° по часовой стрелке
     print("Rotate Clockwise 90°")
-    tello.rotate_clockwise(90)
+    tello.rotate_clockwise(180)
+
+    # Полет вперед на 140см
+    print("Move Forward")
+    tello.move_forward(140)
 
     # Поворот на 90° против часовой стрелки (возврат в исходное положение)
     print("Rotate Counter Clockwise 90°")
-    tello.rotate_counter_clockwise(90)
+    tello.rotate_counter_clockwise(180)
 
     # Посадка после выполнения манёвров
     print("Landing")
