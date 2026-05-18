@@ -1,3 +1,5 @@
+# Пятый запуск Tello
+
 from djitellopy import Tello
 
 # Создаём объект управления дроном

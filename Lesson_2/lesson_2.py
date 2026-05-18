@@ -1,7 +1,7 @@
 # Первый запуск дрона DJI Tello
 # Взлёт, ожидание и посадка
 
-import time
+from time import sleep
 
 from djitellopy import Tello
 
@@ -22,13 +22,13 @@ if battery_level < 20:
     print("Слишком низкий заряд батареи!")
     print("Полет отменен.")
 else:
-    
+
     # Взлет
     print("Взлет...")
     tello.takeoff()
 
     # Небольшая задержка после взлета
-    time.sleep(5)
+    sleep(5)
 
     # Посадка
     print("Посадка...")
