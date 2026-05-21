@@ -57,14 +57,14 @@ try:
         # КВАДРАТ
         # 4 стороны
         # ---------------------------------------------------
-        print("\n=== Полет по квадрату ===")
-
-        fly_shape(
-            sides=4,
-            steps=3,
-            step_distance=20,
-            angle=90
-        )
+        # print("\n=== Полет по квадрату ===")
+        #
+        # fly_shape(
+        #     sides=4,
+        #     steps=3,
+        #     step_distance=35,
+        #     angle=90
+        # )
 
         # ---------------------------------------------------
         # ТРЕУГОЛЬНИК
@@ -75,7 +75,7 @@ try:
         fly_shape(
             sides=3,
             steps=2,
-            step_distance=35,
+            step_distance=40,
             angle=120
         )
 
