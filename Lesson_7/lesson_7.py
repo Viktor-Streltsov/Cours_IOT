@@ -1,4 +1,4 @@
-# Шустой запуск Tello
+# Шестой запуск Tello
 
 from djitellopy import Tello
 
