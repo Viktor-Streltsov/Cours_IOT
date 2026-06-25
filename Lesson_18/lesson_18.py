@@ -9,7 +9,7 @@ while cap.isOpened():
     ret, frame = cap.read()
     if not ret: break
 
-    frame = cv2.flip(frame, 0)
+    frame = cv2.flip(frame, 1)
     out.write(frame)
     cv2.imshow('Camera', frame)
 
